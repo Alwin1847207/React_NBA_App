@@ -1,9 +1,8 @@
 import React, {Component} from "react";
 import styles from './videoslist.css';
-import axios from 'axios';
-import {URL} from '../../../config';
 import Button from "../buttons/buttons";
 import VideosTemplate from "./videosListTemplate";
+import {firebaseTeams, firebaseVideos, firebaseLooper} from "../../../firebase";
 
 class VideosList extends Component {
 
@@ -25,40 +24,41 @@ class VideosList extends Component {
 
     request = (start, end) => {
         if (this.state.teams.length < 1) {
-            axios.get(URL + '/teams')
-                .then(response => {
-                    this.setState({
-                        teams: response.data
-                    })
-                })
-        }
-
-        axios.get(URL + '/videos?_start=' + start + '&_end=' + end)
-            .then(response => {
+            firebaseTeams.once('value').then((snapshot) => {
+                const teams = firebaseLooper(snapshot);
                 this.setState({
-                    videos: [...this.state.videos, ...response.data],
-                    start,
-                    end,
+                    teams
                 })
             })
+        }
+
+        firebaseVideos.orderByChild('id').startAt(start).endAt(end).once('value').then((snapshot) => {
+            const videos = firebaseLooper(snapshot);
+            this.setState({
+                videos: [...this.state.videos, ...videos],
+                start,
+                end
+            })
+        })
+
     };
 
     renderVideos = () => {
-      let template = null;
+        let template = null;
 
-      switch(this.props.type){
-          case('card'):
-              template = <VideosTemplate data={this.state.videos}  teams={this.state.teams}/>;
-              break;
-          default:
-              template=null
-      }
-      return template
+        switch (this.props.type) {
+            case('card'):
+                template = <VideosTemplate data={this.state.videos} teams={this.state.teams}/>;
+                break;
+            default:
+                template = null
+        }
+        return template
     };
 
     loadMore = () => {
         let end = this.state.end + this.state.amount;
-        this.request(this.state.end,end)
+        this.request(this.state.end + 1, end)
     };
 
     renderButton = () => {

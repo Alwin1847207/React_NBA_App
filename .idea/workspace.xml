@@ -2,47 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="361dcc57-3fee-4762-b774-e15ea7f4d029" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/db.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/articles/articles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/articles/elements/postData.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/articles/elements/teamNfo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/articles/news/main/news_index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/articles/news/posts/article_index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/articles/news/posts/header_article.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/articles/videos/main/videos_index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/articles/videos/videoPosts/header_videos.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/articles/videos/videoPosts/video_index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/footer/footer.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/footer/footer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/header/header.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/header/header.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/header/sidenav/sidenav.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/header/sidenav/sidenav.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/header/sidenav/sidenavitems.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/widgets/buttons/buttons.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/widgets/buttons/buttons.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/widgets/cardinfo/cardinfo.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/widgets/cardinfo/cardinfo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/widgets/newsList/newsList.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/widgets/newsList/newslist.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/widgets/newsSlider/slider.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/widgets/newsSlider/slider.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/widgets/newsSlider/sliderTemplate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/widgets/videosList/VideosRelated/videosRelated.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/widgets/videosList/videosListTemplate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/widgets/videosList/videoslist.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/widgets/videosList/videoslist.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/react_learn_nba_app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/react_learn_nba_app.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/firebase.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/webpack.config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/home/home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home/home.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hoc/layout/layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/hoc/layout/layout.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/articles/elements/postData.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/articles/elements/postData.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/articles/news/posts/article_index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/articles/news/posts/article_index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/articles/videos/videoPosts/video_index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/articles/videos/videoPosts/video_index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/widgets/cardinfo/cardinfo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/widgets/cardinfo/cardinfo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/widgets/newsList/newsList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/widgets/newsList/newsList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/widgets/newsSlider/slider.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/widgets/newsSlider/slider.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/widgets/videosList/videoslist.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/widgets/videosList/videoslist.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,7 +82,9 @@
       <workItem from="1585630757585" duration="10135000" />
       <workItem from="1585715061508" duration="851000" />
       <workItem from="1585723396231" duration="6058000" />
-      <workItem from="1585801030514" duration="13667000" />
+      <workItem from="1585801030514" duration="14971000" />
+      <workItem from="1586094961700" duration="1820000" />
+      <workItem from="1586189624927" duration="3631000" />
     </task>
     <servers />
   </component>
